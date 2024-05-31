@@ -11,127 +11,153 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="4,340.001 ns"></ZoomEndTime>
-      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+      <ZoomStartTime time="991.066666 us"></ZoomStartTime>
+      <ZoomEndTime time="1,002.986667 us"></ZoomEndTime>
+      <Cursor1Time time="995.416666 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="391"></NameColumnWidth>
-      <ValueColumnWidth column_width="192"></ValueColumnWidth>
+      <NameColumnWidth column_width="225"></NameColumnWidth>
+      <ValueColumnWidth column_width="152"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="24" />
-   <wvobject type="array" fp_name="/basic_nco_tb/o_phase">
-      <obj_property name="ElementShortName">o_phase[17:0]</obj_property>
-      <obj_property name="ObjectShortName">o_phase[17:0]</obj_property>
+   <WVObjectSize size="20" />
+   <wave_markers>
+      <marker label="" time="3956000" />
+      <marker label="" time="1000000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/basic_nco_tb/DUT/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/sin">
+      <obj_property name="ElementShortName">sin[13:0]</obj_property>
+      <obj_property name="ObjectShortName">sin[13:0]</obj_property>
       <obj_property name="Radix">REALRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
-      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_fractionWidth">13</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
       <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
       <obj_property name="CellHeight">100</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/basic_nco_tb/ce">
-      <obj_property name="ElementShortName">ce</obj_property>
-      <obj_property name="ObjectShortName">ce</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/basic_nco_tb/clk">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/i_tune">
-      <obj_property name="ElementShortName">i_tune[31:0]</obj_property>
-      <obj_property name="ObjectShortName">i_tune[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/basic_nco_tb/reset">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/CLK_FREQ">
-      <obj_property name="ElementShortName">CLK_FREQ[31:0]</obj_property>
-      <obj_property name="ObjectShortName">CLK_FREQ[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="other" fp_name="/basic_nco_tb/CLK_PERIOD">
-      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
-      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/ACC_W">
-      <obj_property name="ElementShortName">ACC_W[31:0]</obj_property>
-      <obj_property name="ObjectShortName">ACC_W[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/PHASE_W">
-      <obj_property name="ElementShortName">PHASE_W[31:0]</obj_property>
-      <obj_property name="ObjectShortName">PHASE_W[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/PHASE_POINT">
-      <obj_property name="ElementShortName">PHASE_POINT[31:0]</obj_property>
-      <obj_property name="ObjectShortName">PHASE_POINT[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/COARSE_ADDR_W">
-      <obj_property name="ElementShortName">COARSE_ADDR_W[31:0]</obj_property>
-      <obj_property name="ObjectShortName">COARSE_ADDR_W[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/NCO_FREQ">
-      <obj_property name="ElementShortName">NCO_FREQ[31:0]</obj_property>
-      <obj_property name="ObjectShortName">NCO_FREQ[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="other" fp_name="/basic_nco_tb/ratio">
-      <obj_property name="ElementShortName">ratio</obj_property>
-      <obj_property name="ObjectShortName">ratio</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/TUNE">
-      <obj_property name="ElementShortName">TUNE[31:0]</obj_property>
-      <obj_property name="ObjectShortName">TUNE[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/DUT/o_phase">
-      <obj_property name="ElementShortName">o_phase[17:0]</obj_property>
-      <obj_property name="ObjectShortName">o_phase[17:0]</obj_property>
+   <wvobject type="array" fp_name="/basic_nco_tb/cos">
+      <obj_property name="ElementShortName">cos[13:0]</obj_property>
+      <obj_property name="ObjectShortName">cos[13:0]</obj_property>
       <obj_property name="Radix">REALRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
-      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_fractionWidth">13</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/sample_q">
+      <obj_property name="ElementShortName">sample_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_q[7:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">7</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/samples">
+      <obj_property name="ElementShortName">samples[7:0]</obj_property>
+      <obj_property name="ObjectShortName">samples[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/sample_q">
+      <obj_property name="ElementShortName">sample_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_q[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/basic_nco_tb/out_valid_q">
+      <obj_property name="ElementShortName">out_valid_q</obj_property>
+      <obj_property name="ObjectShortName">out_valid_q</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/basic_nco_tb/mix_valid">
+      <obj_property name="ElementShortName">mix_valid</obj_property>
+      <obj_property name="ObjectShortName">mix_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/cmpy_b_in">
+      <obj_property name="ElementShortName">cmpy_b_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cmpy_b_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/overflow">
+      <obj_property name="ElementShortName">overflow[31:0]</obj_property>
+      <obj_property name="ObjectShortName">overflow[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/dc_i">
+      <obj_property name="ElementShortName">dc_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_i[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/dc_q">
+      <obj_property name="ElementShortName">dc_q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_q[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider246" type="divider">
+      <obj_property name="label">tttt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/sample_q">
+      <obj_property name="ElementShortName">sample_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_q[7:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">7</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/DUT/phase_acc">
-      <obj_property name="ElementShortName">phase_acc[31:0]</obj_property>
-      <obj_property name="ObjectShortName">phase_acc[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="other" fp_name="/basic_nco_tb/DUT/dut_out">
-      <obj_property name="ElementShortName">dut_out</obj_property>
-      <obj_property name="ObjectShortName">dut_out</obj_property>
-   </wvobject>
-   <wvobject type="other" fp_name="/basic_nco_tb/DUT/real_out">
-      <obj_property name="ElementShortName">real_out</obj_property>
-      <obj_property name="ObjectShortName">real_out</obj_property>
-   </wvobject>
-   <wvobject type="other" fp_name="/basic_nco_tb/DUT/real_phase">
-      <obj_property name="ElementShortName">real_phase</obj_property>
-      <obj_property name="ObjectShortName">real_phase</obj_property>
-   </wvobject>
-   <wvobject type="other" fp_name="/basic_nco_tb/DUT/acc_err">
-      <obj_property name="ElementShortName">acc_err</obj_property>
-      <obj_property name="ObjectShortName">acc_err</obj_property>
-   </wvobject>
-   <wvobject type="other" fp_name="/basic_nco_tb/DUT/err">
-      <obj_property name="ElementShortName">err</obj_property>
-      <obj_property name="ObjectShortName">err</obj_property>
-   </wvobject>
-   <wvobject type="other" fp_name="/basic_nco_tb/DUT/avg_err">
-      <obj_property name="ElementShortName">avg_err</obj_property>
-      <obj_property name="ObjectShortName">avg_err</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/DUT/coarse">
-      <obj_property name="ElementShortName">coarse[17:0]</obj_property>
-      <obj_property name="ObjectShortName">coarse[17:0]</obj_property>
+   <wvobject type="array" fp_name="/basic_nco_tb/cos">
+      <obj_property name="ElementShortName">cos[13:0]</obj_property>
+      <obj_property name="ObjectShortName">cos[13:0]</obj_property>
       <obj_property name="Radix">REALRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
-      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_fractionWidth">13</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/basic_nco_tb/DUT/fine">
-      <obj_property name="ElementShortName">fine[17:0]</obj_property>
-      <obj_property name="ObjectShortName">fine[17:0]</obj_property>
+   <wvobject type="array" fp_name="/basic_nco_tb/m_out_i">
+      <obj_property name="ElementShortName">m_out_i[21:0]</obj_property>
+      <obj_property name="ObjectShortName">m_out_i[21:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/dc_i">
+      <obj_property name="ElementShortName">dc_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_i[15:0]</obj_property>
       <obj_property name="Radix">REALRADIX</obj_property>
       <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
-      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/sin">
+      <obj_property name="ElementShortName">sin[13:0]</obj_property>
+      <obj_property name="ObjectShortName">sin[13:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">13</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/m_out_q">
+      <obj_property name="ElementShortName">m_out_q[21:0]</obj_property>
+      <obj_property name="ObjectShortName">m_out_q[21:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/basic_nco_tb/dc_q">
+      <obj_property name="ElementShortName">dc_q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_q[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">14</obj_property>
       <obj_property name="radix_otherWidth">0</obj_property>
    </wvobject>
 </wave_config>

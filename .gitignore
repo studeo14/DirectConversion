@@ -6,6 +6,7 @@
 *.hw
 *.sim
 *.runs
+*.gen
 *.ip_user_files
-*.srcs
 *.log
+*.Xil
