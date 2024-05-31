@@ -1,4 +1,4 @@
-23130144376564736
+23126716317173836
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62292,13 +62292,6 @@ solder jumper open
 0
 5
 3
-KiCad
-SAMTEC_SMA-J-P-X-ST-EM2
-
-
-0
-5
-5
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -63489,20 +63482,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-pmod_pin_array_6x2
-QMOD Pin Header 2 x 6 pins
-CONN
-0
-12
-12
-Library
-pmod_pin_array_6x2_hs
-QMOD Pin Header 2 x 6 pins
-CONN
-0
-12
-12
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -94758,3 +94737,10 @@ Varistor VF
 0
 2
 2
+footprints
+PinHeader_2x06_P2.54mm_Horizontal_PMOD_MALE
+Through hole angled pin header, 2x06, 2.54mm pitch, 6mm pin length, double rows
+Through hole angled pin header THT 2x06 2.54mm double row
+0
+12
+12
