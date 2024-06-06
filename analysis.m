@@ -33,8 +33,6 @@ ff = fopen("./samples.txt", "w");
 fprintf(ff, "%d\n", samples_quant);
 fclose(ff);
 
-pause;
-
 ff = csvread("./o_samples.txt");
 o_samples = complex(ff(:,1), ff(:,2));
 figure(2);
